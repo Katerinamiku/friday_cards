@@ -1,0 +1,34 @@
+
+.superButton {
+    background: rgba(0, 0, 0, .3);
+    padding: 3px 8px 3px 8px;
+    border: rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    box-shadow: 0 10px 20px rgb(0 0 0 / 60%);
+    color: #9f072a;
+    transition: .5s;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 4px;
+    margin-left: 10px;
+}
+
+.superButton:hover {
+    overflow: hidden;
+    background: #e7748b;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #ed6583,
+    0 0 25px #ed6583,
+    0 0 50px #ed6583,
+    0 0 100px #ed6583;
+}
+.red {
+    background: rgba(255, 0, 0, 0.2);
+}
+.superButton:disabled {
+    background: rgba(0, 0, 0, .2);
+    color: #04c4ce;
+}

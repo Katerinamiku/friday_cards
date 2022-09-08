@@ -1,0 +1,13 @@
+.navbarContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 50px;
+    background: #84dccc;
+}
+.navbarContainer a {
+    color: #d52c4f;
+}
+.navbarContainer a:hover {
+    color: #a34254;
+}
